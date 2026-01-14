@@ -47,8 +47,8 @@ O software foi dividido em módulos independentes que se comunicam através das 
 
 1. Clone o repositório:
 ```bash
-git clone <link-do-seu-repositorio>
-cd projetofinal
+git clone https://github.com/Eliveltonmoura/bitdoglab_game.git
+cd bitdogla_game
 
 ```
 
@@ -63,7 +63,7 @@ make -j4
 
 
 3. Copie o arquivo `bitdoglab_game.uf2` para o seu Raspberry Pi Pico em modo BOOTSEL.
-
+Ex: cp bitdoglab_game.uf2 /media/$USER/RPI-RP2/
 ---
 
 ## 📊 Monitoramento

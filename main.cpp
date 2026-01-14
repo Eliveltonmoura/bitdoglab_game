@@ -100,7 +100,7 @@ void vTaskInput(void *pvParameters) {
         if (!gpio_get(BUTTON_A_PIN)) {
             cmd = -1; 
             xQueueSend(xQueueInput, &cmd, 0);
-            printf("Botao A (Esquerda) OK\n"); // Debug
+           // printf("Botao A (Esquerda) OK\n"); // Debug
             vTaskDelay(pdMS_TO_TICKS(200)); 
         }
         
@@ -108,7 +108,7 @@ void vTaskInput(void *pvParameters) {
         if (!gpio_get(BUTTON_B_PIN)) {
             cmd = 1; 
             xQueueSend(xQueueInput, &cmd, 0);
-            printf("Botao B (Direita) OK\n"); // Debug
+            //printf("Botao B (Direita) OK\n"); // Debug
             vTaskDelay(pdMS_TO_TICKS(200)); 
         }
 
