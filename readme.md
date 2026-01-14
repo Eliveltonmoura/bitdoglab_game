@@ -63,7 +63,9 @@ make -j4
 
 
 3. Copie o arquivo `bitdoglab_game.uf2` para o seu Raspberry Pi Pico em modo BOOTSEL.
+```bash
 Ex: cp bitdoglab_game.uf2 /media/$USER/RPI-RP2/
+```
 ---
 
 ## 📊 Monitoramento
