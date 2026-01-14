@@ -78,7 +78,7 @@ Timer disparou! Aumentando velocidade...
 
 ---
 
-**Desenvolvido por:** Elivelton Moura, Ronyer Lopes, Pedro Wlson
+**Desenvolvido por:** Elivelton Moura, Ronyer Lopes, Pedro Wilson
 
 **Plataforma:** BitDogLab / RP2040
 
